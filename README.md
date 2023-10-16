@@ -29,3 +29,4 @@ Here I followed simple verison requirment for the apps metioned in LFS here are 
 
 ```
 Refer to recent documentaiton to know the mimimun requirements and do follow them.
+
