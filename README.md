@@ -30,3 +30,16 @@ Here I followed simple verison requirment for the apps metioned in LFS here are 
 ```
 Refer to recent documentaiton to know the mimimun requirements and do follow them.
 
+
+
+## Theory
+#### Root
+Root is the superuser account in Unix and Linux. It is a user account for administrative purposes, and typically has the highest access rights on the system.
+### Super user
+In Linux and Unix-like systems, the superuser account, called 'root', is virtually omnipotent, with unrestricted access to all commands, files, directories, and resources. 
+### Partion
+A partition is a logical division of a hard disk that is treated as a separate unit by operating systems (OSes) and file systems. 
+
+
+## Step by step Porcedure
+
