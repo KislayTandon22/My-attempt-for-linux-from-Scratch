@@ -39,6 +39,9 @@ Root is the superuser account in Unix and Linux. It is a user account for admini
 In Linux and Unix-like systems, the superuser account, called 'root', is virtually omnipotent, with unrestricted access to all commands, files, directories, and resources. 
 ### Partion
 A partition is a logical division of a hard disk that is treated as a separate unit by operating systems (OSes) and file systems. 
+### Swap space
+Swap space in Linux is used when the amount of physical memory (RAM) is full. If the system needs more memory resources and the RAM is full, inactive pages in memory are moved to the swap space.
+
 
 
 ## Step by step Porcedure
