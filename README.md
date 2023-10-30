@@ -46,3 +46,21 @@ Swap space in Linux is used when the amount of physical memory (RAM) is full. If
 
 ## Step by step Porcedure
 
+### Pariton needed
+Most of you if you are using SSD as your storage devices then you might not need the Swap space. 30GB is what I am going with for this project.
+I have curretnly created onw ith ext-4 as file system using G-parted.
+
+now let's set up LFS Variable,
+first know of the drive you are using let it's name be here name of my partiton is nvme0n1p8
+feel free to replace the name with one your drive is.
+
+```
+mkdir -pv $LFS
+
+mount -v -t ext4 /dev/nvme0n1p8 $LFS
+```
+let's get necessary reosurces
+
+```
+mkdir -v $LFS/sources
+```
