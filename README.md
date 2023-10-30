@@ -59,8 +59,19 @@ mkdir -pv $LFS
 
 mount -v -t ext4 /dev/nvme0n1p8 $LFS
 ```
-let's get necessary reosurces
+let's get necessary reosurces folder where we will keep files it is writable and stickable os even multiple user try to write only woner can delete the file.
 
 ```
 mkdir -v $LFS/sources
+chmod -v a+wt $LFS/sources
+```
+Download the file form the following links
+```
+https://www.linuxfromscratch.org/mirrors.html#files
+```
+now using wget I will downlad the files in the required LFS place.
+
+here what I typed in the terminal
+```
+wget -r 'http://ftp.lfs-matrix.net/pub/lfs/' --continue --directory-prefix=$LFS/sources
 ```
